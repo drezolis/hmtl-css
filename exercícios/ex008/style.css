@@ -1,12 +1,13 @@
+
 body{
-    background-color: antiquewhite;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+     background-color: lightyellow;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.marcatexto{
-    background-color: aquamarine;
+mark{
+     background-color: aqua;
 }
 
-.maisformataçoes{
-    color: crimson;
+abbr{
+     text-decoration:underline;
 }
