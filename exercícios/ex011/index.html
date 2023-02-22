@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <title>Mídias em HTML5</title>
+</head>
+<body>
+     <h1>Imagens dinâmicas</h1>
+     <p>Tente abrir esse site em vários dispositivos diferentes ou aumente e diminua o tamanho do navegador.</p>
+
+     <picture>
+          <source media="(max-width: 750px )" srcset="imagens/foto1.png" type="image/png">
+          <source media="(max-width: 1050px )" srcset="imagens/foto2.png" type="image/png">
+          <img src="imagens/foto3.png">
+     </picture>
+
+     <h1>Reproduzindo áudios</h1>
+     <p>Aprendendo a reproduzir áudios em HTML5</p>
+     <audio preload="metadata" controls> <!-- NUNCA usar o preload auto --> 
+          <!-- a ordem dos sources reflete na ordem de carregamento do navegador, no caso o mp3 vai ser carregado primeiro, depois o ogg e depois o wav -->
+          <source src="mídia/guanacast-33.mp3" type="audio/mpeg">
+          <source src="mídia/guanacast-33.ogg" type="audio/ogg">
+          <source src="mídia/guanacast-33.wav" type="audio/wav">
+     </audio>
+</body>
+</html> 
