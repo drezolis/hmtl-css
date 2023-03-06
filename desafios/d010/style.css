@@ -67,3 +67,8 @@ body{
      margin-top: 10px;
      margin-bottom: 10px;
 }
+
+.video{
+     background-color: #063D1E;
+     justify-content: center;
+}
