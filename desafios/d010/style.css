@@ -1,0 +1,66 @@
+:root{
+     --cor-um: #b65771;
+     --cor-dois: #c86f89;
+     --cor-tres: #db87a1;
+     --cor-quatro: #ed9fb8;
+     --cor-cinco: #ffb7d0;
+     --fonte01: Arial, Helvetica, sans-serif;
+     --fonte02: 'Bebas Neue', cursive;
+     --fonte03: 'Android', sans-serif;
+}
+
+@font-face {
+     font-family: 'Android';
+     src: url(fontes/idroid.otf);
+}
+
+*{
+     padding: 0;
+     margin: 0;
+}
+
+.cabecalho{
+     background-image: linear-gradient(to bottom, #ffb7d0, #db87a1, #c86f89);  
+     font-family: var(--fonte01);
+     color: white;
+     text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.429);
+}
+
+.cabecalho__titulo, .cabecalho__texto{
+     padding: 30px;
+     text-align: center;
+}
+
+.menu{
+     padding: 5px;
+     margin-left: 10px;
+     
+     
+}
+
+.menu > a{
+     margin-right: 10px;
+     text-decoration: none;
+     color: white;
+     font-family: var(--fonte01);
+}
+
+body{
+     background-color: var(--cor-cinco);
+}
+
+.conteudo{
+     background-color: white;
+     padding: 30px;
+     margin: auto;
+     width: 900px;
+     font-family: var(--fonte01);
+     text-indent: 3%;
+}
+
+.conteudo__titulo{
+     font-family: var(--fonte03);
+     background-image: linear-gradient(to right, #db87a286, white);
+     margin-top: 10px;
+     margin-bottom: 10px;
+}
