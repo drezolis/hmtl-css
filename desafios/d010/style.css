@@ -111,6 +111,7 @@ main h1{
      font-family: var(--fonte3);
      color: var(--cor5);
      font-size: 30px;
+     font-weight: normal;
 }
 
 main h2{
@@ -119,6 +120,7 @@ main h2{
      background-image: linear-gradient(to right, var(--cor1), transparent);
      margin-top: 10px;
      margin-bottom: 10px;
+     font-weight: normal;
 }
 
 main strong{
@@ -136,13 +138,11 @@ abbr{
 }
 
 div.video{
-     position: relative;
      background-color: var(--cor4);
-     height: 0px;
-     margin-left: -20px;
-     margin-right: -20px;
-     margin-bottom: 15px;
-     padding-bottom: 59%;
+     margin: 0px -20px 30px -20px;
+     padding: 20px;
+     padding-bottom: 58%;
+     position: relative;
 }
 
 div.video > iframe{
