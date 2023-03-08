@@ -154,9 +154,11 @@ div.video > iframe{
 }
 
 aside{
-     
+     padding: 10px;
      background-color: var(--cor1);
      font-family: var(--fonte1);
+     border-radius: 10px;
+     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.411);
 }
 
 aside h3{
@@ -164,18 +166,20 @@ aside h3{
      font-family: var(--fonte1);
      font-weight: bold;
      color: white;
+     margin: -10px -10px 0px -10px;
+     padding: 10px;
+     border-radius: 10px 10px 0px 0px;
 }
 
 aside ul{
      list-style-type: '\2714\0020\0020';
-     columns: 2;
-     list-style-position: inside;
+     columns: 2; /* divide a lista em duas colunas */
+     list-style-position: inside; /* lista pra dentro */
      margin: 10px;
 }
 
 aside li{
-     text-decoration: none;
-     grid-template-columns: 50%;
+     text-decoration: none;    
 }
 
 footer{
@@ -183,7 +187,19 @@ footer{
      margin-top: 20px;
      text-align: center;
      font-family: var(--fonte1);
-     font-size: 20px;
      color: white;
      line-height: 30px;
+}
+
+footer a{
+     color: white;
+     text-decoration: none;
+     font-weight: bold;
+}
+
+footer a:hover{
+     text-decoration: underline;
+     color: var(--cor2);
+     background-color: var(--cor4);
+     transition: 0.4s;
 }
